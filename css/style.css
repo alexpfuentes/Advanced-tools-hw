@@ -100,3 +100,30 @@ img {
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 576px) {
+  body {
+    margin: 100px 10px 10px 20px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+
+  .contact-me {
+    font-size: 40px;
+  }
+
+  .email-link {
+    font-size: 25px;
+  }
+
+}
